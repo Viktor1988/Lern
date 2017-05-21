@@ -1,3 +1,4 @@
 #!/bin/bash
 
-openssl rsautl ... decript > inkey
+cat -|openssl rsautl -decrypt -inkey ~/.ssh/gitbashlove
+
